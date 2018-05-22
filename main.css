@@ -1,0 +1,84 @@
+.wrapper {
+  margin: 1rem 0rem 1rem -1rem;
+}
+
+.top {
+  position: fixed;
+  top: 21px;
+  width: 100%;
+  font-size: 0.83rem;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.button {
+  color: white;
+  font-weight: bold;
+  background-color: mediumslateblue;
+}
+
+.searchbar {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.btn {
+  padding: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 0.85rem;
+  color: #777777;
+  background-color: #eeeeee;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 11px solid #eee;
+  background-color: #eee;
+  font-size: 0.75rem;
+}
+
+main {
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  width: 100%;
+  height: auto;
+}
+
+input {
+  width: 30rem;
+}
+
+nav {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #444444;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+  margin: 4px;
+}

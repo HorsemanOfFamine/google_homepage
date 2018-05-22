@@ -1,39 +1,55 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Google</title>
-    <meta charset="utf-8>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
-  <header>
-    <div class="nav">
-      <ul>
-        <li>About</li>
-        <li>Store</li>
-        <!-- Empty Space -->
-        <li>Gmail</li>
-        <li>Images</li>
-        <li class="button">Sign In</li>
-      </ul>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="top">
+          <ul>
+            <div class="left">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Store</a></li>
+            </div>
+            <div class="right">
+              <li><a href="#">Gmail</a></li>
+              <li><a href="#">Images</a></li>
+              <li class="button">Sign In</li>
+            </div>
+          </ul>
+        </nav>
+      </header>
+      <main> 
+        <div class="logo">
+          <a href="https://google.com">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google Logo">
+          </a>
+        </div>
+        <form class="searchbar">
+          <input type="search">
+        </form>
+        <ul>
+          <li class="btn">Google Search</li>
+          <li class="btn">I'm Feeling Lucky</li>
+        </ul>
+      </main>
+      <footer>
+        <nav class="bottom">
+          <ul>
+            <div class="left">
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Business</a></li>
+            </div>
+            <div class="right">
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Settings</a></li>
+            </div>
+          </ul>
+        </nav>
+      </footer>
     </div>
-  </header>
-  <main>
-    <!-- Search Bar
-         Google Search (button) | I'm Feeling Lucky (button) -->
-    <a href="https://google.com">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google Logo"/>
-    </a>
-  </main>
-  <footer>
-    <div class="nav">
-      <ul>
-        <li>Advertising</li>
-        <li>Business</li>
-        <!-- Empty Space -->
-        <li>Privacy</li>
-        <li>Terms</li>
-        <li>Settings</li>
-      </ul>
-    <div>
-  </footer>
+  </body>
 </html>
